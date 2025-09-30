@@ -1,16 +1,62 @@
-# React + Vite
+📸 Instagram Influencer Profile Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Full Stack Developer Assignment
 
-Currently, two official plugins are available:
+This project is a full-stack web application that showcases the profile of an Instagram influencer, enriched with analytics, media insights, and audience demographics. It demonstrates frontend design, backend architecture, data scraping, and media analysis capabilities.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+Objective
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Build a responsive, data-driven profile page for an Instagram influencer that includes:
 
-## Expanding the ESLint configuration
+- Basic profile information
+- Engagement analytics
+- Post and reel-level insights
+- Media analysis (image + video)
+- Audience demographics visualization
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+Tech Stack
+
+| Layer         | Tools & Libraries                             |
+|---------------|------------------------------------------------|
+| **Frontend**  | React, Chart.js, Tailwind CSS                  |
+| **Backend**   | Node.js, Express, MongoDB, Mongoose            |
+| **Media Analysis** | OpenCV (image & video processing)         |
+| **Deployment**| Vercel (frontend), local backend (or Render)   |
+
+---
+
+Features
+
+Basic Profile Info
+- Influencer Name, Username (@handle)
+- Profile Picture
+- Followers, Following, Post Count
+
+Engagement & Analytics
+- Average Likes & Comments per Post
+- Engagement Rate (%)
+- Health Score
+
+Post-Level Insights
+- Last 10 posts with thumbnails, captions, likes, comments
+- Auto-generated tags (e.g., 'food', 'travel')
+- Vibe classification (e.g., 'aesthetic', 'luxury')
+- Quality indicators (lighting, consistency)
+
+Reel-Level Insights
+- Last 5 reels with thumbnails, captions, views, likes, comments
+- Object/event detection (e.g., 'person dancing', 'beach')
+- Vibe classification (e.g., 'party', 'casual daily life')
+- Descriptive tags (e.g., 'nightlife', 'food review')
+
+Bonus: Audience Demographics
+- Gender split (Pie chart)
+- Age groups (Bar chart)
+- Geographic distribution (List view)
+
+---
+Thank You..
